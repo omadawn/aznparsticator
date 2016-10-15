@@ -7,7 +7,7 @@ node ('git&&maven') {
     sh "mvn -DnewVersion='0.1.0-${BUILD_NUMBER}' versions::set"
   }
   try {
-    sh 'mvn clean deploy'
+    sh 'mvn clean package'
     currentBuild.result = 'SUCCESS'
   } catch(err) {
     currentBuild.result = 'FAILED'
