@@ -5,5 +5,4 @@ A human UI for servers.json
 
 # Build Status
 
- 
-Hopefully amazon supports this
+Gotta get the build status plugin installed in Jenkins to support this.
