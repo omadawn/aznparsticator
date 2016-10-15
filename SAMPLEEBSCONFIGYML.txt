@@ -1,0 +1,19 @@
+branch-defaults:
+  default:
+    environment: aznparsticator-dev
+    group_suffix: null
+deploy:
+  artifact: target/aznparsticator-0.0.2-SNAPSHOT.jar
+environment-defaults:
+  aznparsticator-dev:
+    branch: null
+    repository: null
+global:
+  application_name: AZNPasticator
+  branch: null
+  default_ec2_keyname: aws-eb-deploy
+  default_platform: Java 8
+  default_region: us-west-2
+  profile: eb-cli
+  repository: null
+  sc: null
